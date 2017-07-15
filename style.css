@@ -1048,3 +1048,44 @@ height: 100% !important;
 }
 
 </style>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function(){
+		Typed.new(".element", {
+			strings: ['Đội ngũ kỹ sư có kiến thức và năng lực chuyên môn cao.<br><br><em>Engineers with high professional knowledge and skill.</em>',
+			'Chúng tôi hài lòng thái độ phục vụ và sự nhiệt tình của nhân viên.<br><br><em>We are satisfied with the service attitude and enthusiastic of staff.</em>',
+			'Trong quá trình làm việc nhân viên liên lạc, trao đổi thông tin và đáp ứng yêu cầu khá nhanh.<br><br><em>Staff contact, exchange information and respond demand fast in the working process.</em>',
+			'Đội ngũ quản lý công trình có khả năng làm việc, sắp xếp và giải quyết công việc tốt.<br><br><em>Construction management team are best of ability to arrange and solve work.</em>',
+			'Đội ngũ thi công đúng chuyên môn và có trình độ tay nghề cao.<br><br><em>The construction teams are expertise and skilled level.</em>',
+			'Sự phối hợp, hợp tác  làm việc với các bên trong quá trình thực hiện dự án là rất tốt.<br><br><em>Coordination and cooperation with the parties in project implementation are very good.</em>',
+			'Nhân viên công trường có tinh thần tự giác cao trong việc chấp hành “An toàn lao động".<br><br><em>Site staffs have self-discipline, efficient implementation of safety (HSE).</em>',
+			'Toàn thể nhân viên công trường có ý thức giữ gìn vệ sinh nơi làm việc.<br><br><em>Site staffs are conscious of the hygiene workplace.</em>'],
+			typeSpeed: 50,
+			
+			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+			// stringsElement: null,
+			// time before typing starts
+			// startDelay: 0,
+			// backspacing speed
+			backSpeed: -1000,
+			// shuffle the strings
+			// shuffle: true,
+			// time before backspacing
+			backDelay: 500,
+			// Fade out instead of backspace (must use CSS class)
+			// fadeOut: true,
+			// fadeOutClass: 'typed-fade-out',
+			// fadeOutSpeed: 2000, // milliseconds
+			// loop
+			loop: true,
+			// null = infinite
+			// loopCount: 2,
+			// show cursor
+			// showCursor: true,
+			// character for cursor
+			// cursorChar: "|",
+			// attribute to type (null == text)
+			// attr: null,
+		});
+	});
+</script>
